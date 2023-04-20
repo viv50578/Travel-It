@@ -34,7 +34,7 @@ class _congragulationState extends State<congragulation> {
           backgroundColor: Colors.transparent,
           title: Center(
               child: Text(
-            'Conformation',
+            'Confirmation',
             style: GoogleFonts.montserrat(
                 fontSize: 24, fontWeight: FontWeight.w500),
           )),
@@ -60,7 +60,7 @@ class _congragulationState extends State<congragulation> {
                   top: 50,
                   right: 60,
                   child: Text(
-                    'Congragulations  Your  TIcket has been Confirmed',
+                    'Congratulations  Your  Ticket has been booked',
                     style: GoogleFonts.montserrat(
                         color: Colors.white,
                         fontSize: 24,

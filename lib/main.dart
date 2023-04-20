@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_2/andamans.dart';
 import 'package:flutter_application_2/bhimtal.dart';
-import 'package:flutter_application_2/congragualtion.dart';
+import 'package:flutter_application_2/congratulation.dart';
 import 'package:flutter_application_2/first.dart';
 import 'package:flutter_application_2/flight.dart';
 import 'package:flutter_application_2/main_page.dart';

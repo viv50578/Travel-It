@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:flutter_application_2/congragualtion.dart';
+import 'package:flutter_application_2/congratulation.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter_application_2/alibag.dart';
 import 'package:flutter_application_2/andamans.dart';
 import 'package:flutter_application_2/bhimtal.dart';
 import 'package:flutter_application_2/goa.dart';
@@ -28,14 +29,14 @@ class first extends StatelessWidget {
           children: [
             UserAccountsDrawerHeader(
               accountName: Text(
-                'Aryan',
+                'Viv',
                 style: GoogleFonts.montserrat(
                     fontSize: 22,
                     fontWeight: FontWeight.w500,
                     color: Colors.white),
               ),
               accountEmail: Text(
-                'deshmukh6607@dmail.com',
+                'abc@gmail.com',
                 style: GoogleFonts.montserrat(fontSize: 18),
               ),
               currentAccountPicture: CircleAvatar(
@@ -89,7 +90,7 @@ class first extends StatelessWidget {
                 size: 27,
               ),
               title: Text(
-                'Transcations',
+                'Transactions',
                 style: GoogleFonts.montserrat(
                     fontSize: 22,
                     fontWeight: FontWeight.w500,
@@ -155,7 +156,7 @@ class first extends StatelessWidget {
             child: Image(
               image: NetworkImage(
                   'https://images.unsplash.com/photo-1546182990-dffeafbe841d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=859&q=80'),
-              height: 10,
+              height: 7,
               width: 50,
               fit: BoxFit.fitHeight,
             ),
@@ -252,7 +253,7 @@ class first extends StatelessWidget {
                                             ));
                                       },
                                       child: Image.asset(
-                                        'images/rajis.png',
+                                        'images/rajas.png',
                                         height: 55,
                                         width: 55,
                                         filterQuality: FilterQuality.high,
@@ -375,7 +376,7 @@ class first extends StatelessWidget {
                                         width: 55,
                                         filterQuality: FilterQuality.high,
                                         color:
-                                            Color.fromARGB(255, 241, 237, 237),
+                                            Color.fromARGB(144, 241, 237, 237),
                                       ),
                                     ),
                                   ),
@@ -418,7 +419,7 @@ class first extends StatelessWidget {
                           children: [
                             Container(
                               margin: EdgeInsets.only(
-                                  left: 30, right: 30, bottom: 30),
+                                  left: 10, right: 20, bottom: 30),
                               child: Stack(clipBehavior: Clip.none, children: [
                                 Container(
                                   padding: EdgeInsets.all(0),
@@ -427,7 +428,7 @@ class first extends StatelessWidget {
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(50),
                                     child: Image.asset(
-                                      'images/lake.jpg',
+                                      'images/beach.jpg',
                                       fit: BoxFit.fill,
                                     ),
                                   ),
@@ -465,7 +466,7 @@ class first extends StatelessWidget {
                                     width: 65,
                                     decoration: BoxDecoration(
                                         color:
-                                            Color.fromARGB(70, 206, 190, 190)),
+                                        Color.fromARGB(70, 206, 190, 190)),
                                     child: Column(
                                       children: [
                                         Row(
@@ -474,11 +475,11 @@ class first extends StatelessWidget {
                                               margin: EdgeInsets.only(
                                                   right: 5, left: 8),
                                               child: Text(
-                                                '4.6',
+                                                '4.7',
                                                 style: TextStyle(
                                                     fontSize: 18,
                                                     fontWeight:
-                                                        FontWeight.w500),
+                                                    FontWeight.w500),
                                               ),
                                             ),
                                             Container(
@@ -508,7 +509,7 @@ class first extends StatelessWidget {
                                         Center(
                                           child: Container(
                                             child: Text(
-                                              'Bhimtal Lake',
+                                              'Alibag Beach',
                                               style: GoogleFonts.montserrat(
                                                   fontSize: 18,
                                                   fontWeight: FontWeight.w600,
@@ -524,7 +525,7 @@ class first extends StatelessWidget {
                                                 left: 20,
                                                 bottom: 20),
                                             child: Text(
-                                                'Bhimtal is a lake in the town of Bhimtal, Nainital district of Uttarakhand......',
+                                                'Picturesque beach town in Maharashtra, India.',
                                                 overflow: TextOverflow.clip,
                                                 style: GoogleFonts.montserrat(
                                                     fontSize: 15,
@@ -548,15 +549,15 @@ class first extends StatelessWidget {
                                         Container(
                                           child: ConstrainedBox(
                                             constraints:
-                                                BoxConstraints.tightFor(
-                                                    height: 45, width: 127),
+                                            BoxConstraints.tightFor(
+                                                height: 45, width: 127),
                                             child: ElevatedButton(
                                               onPressed: () {
                                                 Navigator.push(
                                                     context,
                                                     MaterialPageRoute(
                                                       builder: (context) =>
-                                                          bhimtal(),
+                                                          alibag(),
                                                     ));
                                               },
                                               child: Text(
@@ -565,17 +566,17 @@ class first extends StatelessWidget {
                                                     fontSize: 20,
                                                     color: Colors.black,
                                                     fontWeight:
-                                                        FontWeight.w600),
+                                                    FontWeight.w600),
                                               ),
                                               style: ElevatedButton.styleFrom(
                                                   shape: RoundedRectangleBorder(
                                                       borderRadius:
-                                                          BorderRadius.circular(
-                                                              15)),
-                                                  primary: Color.fromARGB(
+                                                      BorderRadius.circular(
+                                                          15)),
+                                                  backgroundColor: Color.fromARGB(
                                                       255, 255, 255, 255),
                                                   shadowColor:
-                                                      Color(0xff1B7084),
+                                                  Color(0xff1B7084),
                                                   elevation: 3),
                                             ),
                                           ),
@@ -635,7 +636,7 @@ class first extends StatelessWidget {
                                     width: 65,
                                     decoration: BoxDecoration(
                                         color:
-                                            Color.fromARGB(70, 206, 190, 190)),
+                                        Color.fromARGB(70, 206, 190, 190)),
                                     child: Column(
                                       children: [
                                         Row(
@@ -644,11 +645,11 @@ class first extends StatelessWidget {
                                               margin: EdgeInsets.only(
                                                   right: 5, left: 8),
                                               child: Text(
-                                                '4.6',
+                                                '4.7',
                                                 style: TextStyle(
                                                     fontSize: 18,
                                                     fontWeight:
-                                                        FontWeight.w500),
+                                                    FontWeight.w500),
                                               ),
                                             ),
                                             Container(
@@ -694,7 +695,7 @@ class first extends StatelessWidget {
                                                 left: 20,
                                                 bottom: 20),
                                             child: Text(
-                                                'Bhimtal is a lake in the town of Bhimtal, Nainital district of Uttarakhand......',
+                                                'Hill station, known for its colonial architecture and scenic mountain views.',
                                                 overflow: TextOverflow.clip,
                                                 style: GoogleFonts.montserrat(
                                                     fontSize: 15,
@@ -718,8 +719,8 @@ class first extends StatelessWidget {
                                         Container(
                                           child: ConstrainedBox(
                                             constraints:
-                                                BoxConstraints.tightFor(
-                                                    height: 45, width: 127),
+                                            BoxConstraints.tightFor(
+                                                height: 45, width: 127),
                                             child: ElevatedButton(
                                               onPressed: () {
                                                 Navigator.push(
@@ -735,17 +736,17 @@ class first extends StatelessWidget {
                                                     fontSize: 20,
                                                     color: Colors.black,
                                                     fontWeight:
-                                                        FontWeight.w600),
+                                                    FontWeight.w600),
                                               ),
                                               style: ElevatedButton.styleFrom(
                                                   shape: RoundedRectangleBorder(
                                                       borderRadius:
-                                                          BorderRadius.circular(
-                                                              15)),
-                                                  primary: Color.fromARGB(
+                                                      BorderRadius.circular(
+                                                          15)),
+                                                  backgroundColor: Color.fromARGB(
                                                       255, 255, 255, 255),
                                                   shadowColor:
-                                                      Color(0xff1B7084),
+                                                  Color(0xff1B7084),
                                                   elevation: 3),
                                             ),
                                           ),
@@ -758,7 +759,7 @@ class first extends StatelessWidget {
                             ),
                             Container(
                               margin: EdgeInsets.only(
-                                  left: 10, right: 20, bottom: 30),
+                                  left: 30, right: 30, bottom: 30),
                               child: Stack(clipBehavior: Clip.none, children: [
                                 Container(
                                   padding: EdgeInsets.all(0),
@@ -767,7 +768,7 @@ class first extends StatelessWidget {
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(50),
                                     child: Image.asset(
-                                      'images/beach.jpg',
+                                      'images/lake.jpg',
                                       fit: BoxFit.fill,
                                     ),
                                   ),
@@ -814,7 +815,7 @@ class first extends StatelessWidget {
                                               margin: EdgeInsets.only(
                                                   right: 5, left: 8),
                                               child: Text(
-                                                '4.6',
+                                                '4.7',
                                                 style: TextStyle(
                                                     fontSize: 18,
                                                     fontWeight:
@@ -848,7 +849,7 @@ class first extends StatelessWidget {
                                         Center(
                                           child: Container(
                                             child: Text(
-                                              'Alibag Beach',
+                                              'Bhimtal Lake',
                                               style: GoogleFonts.montserrat(
                                                   fontSize: 18,
                                                   fontWeight: FontWeight.w600,
@@ -864,7 +865,7 @@ class first extends StatelessWidget {
                                                 left: 20,
                                                 bottom: 20),
                                             child: Text(
-                                                'Bhimtal is a lake in the town of Bhimtal, Nainital district of Uttarakhand......',
+                                                'Bhimtal is a lake in the town of Bhimtal, Nainital district of Uttarakhand',
                                                 overflow: TextOverflow.clip,
                                                 style: GoogleFonts.montserrat(
                                                     fontSize: 15,
@@ -896,7 +897,7 @@ class first extends StatelessWidget {
                                                     context,
                                                     MaterialPageRoute(
                                                       builder: (context) =>
-                                                          andamans(),
+                                                          bhimtal(),
                                                     ));
                                               },
                                               child: Text(
@@ -910,9 +911,8 @@ class first extends StatelessWidget {
                                               style: ElevatedButton.styleFrom(
                                                   shape: RoundedRectangleBorder(
                                                       borderRadius:
-                                                          BorderRadius.circular(
-                                                              15)),
-                                                  primary: Color.fromARGB(
+                                                          BorderRadius.circular(15)),
+                                                  backgroundColor: Color.fromARGB(
                                                       255, 255, 255, 255),
                                                   shadowColor:
                                                       Color(0xff1B7084),
@@ -984,7 +984,7 @@ class first extends StatelessWidget {
                                               margin: EdgeInsets.only(
                                                   right: 5, left: 8),
                                               child: Text(
-                                                '4.6',
+                                                '4.7',
                                                 style: TextStyle(
                                                     fontSize: 18,
                                                     fontWeight:
@@ -1034,7 +1034,7 @@ class first extends StatelessWidget {
                                                 left: 20,
                                                 bottom: 20),
                                             child: Text(
-                                                'Bhimtal is a lake in the town of Bhimtal, Nainital district of Uttarakhand......',
+                                                'Great Indian Desert, famous for sand dunes and camel safaris.',
                                                 overflow: TextOverflow.clip,
                                                 style: GoogleFonts.montserrat(
                                                     fontSize: 15,
@@ -1082,7 +1082,7 @@ class first extends StatelessWidget {
                                                       borderRadius:
                                                           BorderRadius.circular(
                                                               15)),
-                                                  primary: Color.fromARGB(
+                                                  backgroundColor: Color.fromARGB(
                                                       255, 255, 255, 255),
                                                   shadowColor:
                                                       Color(0xff1B7084),

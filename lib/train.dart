@@ -373,7 +373,7 @@ class _trainState extends State<train> {
                     border: Border.all(
                         width: 1, color: Color.fromARGB(0, 255, 255, 255)),
                     gradient: LinearGradient(
-                        colors: const [Color(0xff8AC3DA), Color(0xff578CA1)],
+                        colors: const [Color(0xff0075A4), Color(0xff578CA1)],
                         begin: Alignment.bottomLeft,
                         end: Alignment.topRight),
                     borderRadius: BorderRadius.circular(25),

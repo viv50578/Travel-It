@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:flutter_application_2/congragualtion.dart';
+import 'package:flutter_application_2/congratulation.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -61,7 +61,7 @@ class _netbankingState extends State<netbanking> {
                     top: 40,
                     left: 60,
                     child: Image.asset(
-                      'image/card.PNG',
+                      'image/creditcard.webp',
                       height: 179,
                       width: 275,
                     )),

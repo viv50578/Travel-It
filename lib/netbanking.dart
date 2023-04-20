@@ -60,8 +60,8 @@ class _netbankingState extends State<netbanking> {
                 Positioned(
                     top: 40,
                     left: 60,
-                    child: Image.asset(
-                      'image/creditcard.webp',
+                    child: Image.network(
+                      'https://static.vecteezy.com/system/resources/previews/009/384/393/original/credit-card-clipart-design-illustration-free-png.png',
                       height: 179,
                       width: 275,
                     )),
